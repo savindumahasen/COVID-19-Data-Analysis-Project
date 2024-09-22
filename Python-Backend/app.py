@@ -9,7 +9,7 @@ model = pickle.load(open(model_path, 'rb'))
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    feature_names = ['0', '1', '2', '3', '4', '5', '6', '7']
+    feature_names = ['0', '1', '2', '3', '4']
 
     try:
         features = [float(request.json[f]) for f in feature_names]
