@@ -23,9 +23,9 @@ def predict():
 
     # Prepare the result
     if pred[0] == 0:
-        result = "Not survived"
+        result = " Postive Cases are not reported"
     else:
-        result = "Survived"
+        result = "Postive Csaes are reported"
 
     return jsonify({'result': result})
 
