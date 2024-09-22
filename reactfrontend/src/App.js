@@ -51,7 +51,7 @@ function App() {
   return (
     <div className="app-container">
       <div className="form-container">
-        <h1 className="form-title">COVID-19 Total Postive Cases</h1>
+        <h1 className="form-title">COVID-19 Cases predictions based on Italy locations</h1>
 
         <form method="post" onSubmit={handleSubmit} className="prediction-form">
           <div className="form-group">
